@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>د. محمد عبدالهادي بروفيسور امراض النساء والتوليد واستشاري الحقن المجهري وأطفال الانابيب</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon" loading="lazy">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800;900;1000&family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&family=Mulish:wght@200;300;400;500;600;700;800;900&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- Tailwind cdn -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+        
+</head>
+<body>
+    
+    <!-- ********** Start Navbar ********** -->
+    <nav class="h-[100px] fixed top-0 w-full z-50 border-b flex items-center bg-[#ffffff]">
+        <div class="container flex justify-between items-center">
+            <div class="flex gap-8 justify-between items-center flex-1">
+                <!-- Logo -->
+                <div class="logo flex gap-2 relative h-[70px] rounded-md">
+                    <a href="#">
+                        <img src="./assets/logo-full.png" alt="logo" class="w-full h-full object-contain" loading="lazy">
+                    </a>
+                    <!-- <div class="name text-[#73afa1] text-sm font-semibold">
+                        <h2 class="text-2xl font-bold text-[#73afa1]">
+                            د / مـحـمــد عـبــدالـهــادي
+                        </h2>
+                        <p>
+                            بـــــروفـيـســـــور امــــراض الـنـســـــاء والـتـــولـيـــــد
+                            <br>
+                            واستشاري الحقن المجهري وأطفال الانابيب
+                        </p>
+                    </div> -->
+                </div>
+                <div class="row flex justify-between items-center">
+                    <!-- UL Navbar -->
+                    <div class="ul flex gap-8 items-center py-4">
+                        <!-- Nav in full screen -->
+                        <div class="flex gap-16">
+                            <ul class="hidden 2xl:flex gap-8 font-medium text-white items-center">
+                                <li>
+                                    <a href="#"
+                                        class="text-[#73afa1] relative font-semibold text-[20px] duration-300 p-2 rounded-md hover:bg-[#f8f8f8] nav-active"
+                                        aria-label="Read more about Seminole tax hike" nav-active>
+                                        <i class="fa-solid fa-house"></i>
+                                        الـــرئيـسـيـــة
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#about_us"
+                                    class="text-[#73afa1] font-semibold text-[20px] duration-300 p-2 rounded-md hover:bg-[#f8f8f8]"
+                                        aria-label="Read more about Seminole tax hike" nav-active>
+                                        <i class="fas fa-address-card"></i>
+                                        عـــن الـــدكـتـــور
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#information"
+                                    class="text-[#73afa1] font-semibold text-[20px] duration-300 p-2 rounded-md hover:bg-[#f8f8f8]"
+                                        aria-label="Read more about Seminole tax hike" nav-active>
+                                        <i class="fas fa-baby-carriage"></i>
+                                        مـعـلـــومـــات
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#feed"
+                                    class="text-[#73afa1] font-semibold text-[20px] duration-300 p-2 rounded-md hover:bg-[#f8f8f8]"
+                                        aria-label="Read more about Seminole tax hike" nav-active>
+                                        <i class="fas fa-star"></i>
+                                        آراء الـمـتـــابـعـيـــن
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#booking"
+                                        class="text-[#73afa1] font-semibold text-[20px] duration-300 p-2 rounded-md hover:bg-[#f8f8f8]"
+                                        aria-label="Read more about Seminole tax hike" nav-active>
+                                        <i class="fas fa-calendar-check"></i>
+                                        حـجـــز مـــوعـــد
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- Nav in Mobile -->
+                        <ul
+                            class="sidebar w-full flex flex-col py-3 absolute left-0 top-[100px] -translate-x-[100%] bg-[#f8f8f8] text-gray-700 duration-500">
+                            <li>
+                                <a href="#"
+                                    class="w-full text-[#73afa1] px-4 py-3 hover:pr-6 duration-300 block font-bold text-[20px] border-b"
+                                    aria-label="Read more about Seminole tax hike">
+                                    <i class="fa-solid fa-house ml-3"></i>
+                                    الـــرئيـسـيـــة
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#about_us"
+                                    class="w-full text-[#73afa1] px-4 py-3 hover:pr-6 duration-300 block font-bold text-[20px] border-b"
+                                    aria-label="Read more about Seminole tax hike">
+                                    <i class="fas fa-address-card ml-3"></i>
+                                    عـــن الـــدكـتـــور
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#information"
+                                    class="w-full text-[#73afa1] px-4 py-3 hover:pr-6 duration-300 block font-bold text-[20px] border-b"
+                                    aria-label="Read more about Seminole tax hike">
+                                    <i class="fas fa-baby-carriage ml-3"></i>
+                                    مـعـلـــومـــات
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#feed"
+                                    class="w-full text-[#73afa1] px-4 py-3 hover:pr-6 duration-300 block font-bold text-[20px] border-b"
+                                    aria-label="Read more about Seminole tax hike">
+                                    <i class="fas fa-star ml-3"></i>
+                                    آراء الـمـتـــابـعـيـــن
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#booking"
+                                    class="w-full text-[#73afa1] px-4 py-2 hover:pr-6 duration-300 block font-bold text-[20px]"
+                                    aria-label="Read more about Seminole tax hike">
+                                    <i class="fas fa-calendar-check ml-3"></i>
+                                    حـجـــز مـــوعـــد
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- Toggler -->
+            <div class="cursor-pointer 2xl:hidden w-[30px] text-gray-700">
+                <span class="toggler fas fa-bars block h-full w-full"></span>
+            </div>
+        </div>
+    </nav>
+    <!-- ********** End Navbar ********** -->
+
+    <main class="mt-[100px]">
+
+        <!-- ********** Start Header ********** -->
+        <header class="flex items-center bg-[#73afa125]">
+            <div class="container relative">
+                <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" navigation="false" space-between="30" centered-slides="true" autoplay-delay="4000" autoplay-disable-on-interaction="false">
+                    <swiper-slide class="mb-10">
+                        <div class="row flex flex-col-reverse lg:flex-row items-center justify-between gap-5">
+                            <!-- Info -->
+                            <div class="info flex-1 text-center lg:text-right">
+                                <h2 class="text-3xl md:text-5xl font-extrabold max-w-2xl mb-5 text-gray-900">
+                                    <span class="text-[#73afa1]" style="line-height: 1.4;">مـــرحــبـــاً بــكـــم فـــي <br> عيادة د / محمد
+                                        عبدالهادي</span>
+                                </h2>
+                                <p class="text-base md:text-lg font-medium text-gray-800 max-w-2xl leading-[1.8]" style="line-height: 2;">
+                                    بروفيسور امراض النساء والتوليد واستشاري الحقن المجهري وأطفال الانابيب <br> جامعة الازهر- القاهرة
+                                </p>
+                            </div>
+                            <!-- Image -->
+                            <div class="img w-64 sm:w-96 md:w-[500px] 2xl:w-[550px] animate-top-bottom">
+                                <img loading="lazy" src="./assets/land-2.svg" alt="pro" class="max-w-full max-h-[450px] mr-auto">
+                            </div>
+                        </div>
+                    </swiper-slide>
+                    <swiper-slide class="mb-10">
+                        <div class="row flex flex-col-reverse lg:flex-row items-center justify-between gap-5">
+                            <!-- Info -->
+                            <div class="info flex-1 text-center lg:text-right">
+                                <h2 class="text-3xl md:text-5xl font-extrabold max-w-2xl mb-5 text-gray-900">
+                                    <span class="text-[#73afa1]">مـعــاً نـحـقــق الأحــلام</span>
+                                </h2>
+                                <p class="text-base md:text-lg font-medium text-gray-800 max-w-2xl leading-[1.8]" style="line-height: 2;">
+                                    نسعى معاً باحترافية عالية في الحقن المجهري وبدقة متناهية لاختيار الحيوان المنوي المناسب ووضعه في البويضة
+                                    المناسبة ليصبح الحلم حقيقة وتحملي طفلك على يديك.
+                                </p>
+                            </div>
+                            <!-- Image -->
+                            <div class="img w-64 sm:w-96 md:w-[500px] 2xl:w-[550px] animate-top-bottom">
+                                <img loading="lazy" src="./assets/land-1.svg" alt="pro" class="max-w-full max-h-[450px] mr-auto">
+                            </div>
+                        </div>
+                    </swiper-slide>
+                    <swiper-slide class="mb-10">
+                        <div class="row flex flex-col-reverse lg:flex-row items-center justify-between gap-5">
+                            <!-- Info -->
+                            <div class="info flex-1 text-center lg:text-right">
+                                <h2 class="text-3xl md:text-5xl font-extrabold max-w-2xl mb-5 text-gray-900">
+                                    <span class="text-[#73afa1]">مـعــاً نـحـقــق الأحــلام</span>
+                                </h2>
+                                <p class="text-base md:text-lg font-medium text-gray-800 max-w-2xl leading-[1.8]" style="line-height: 2;">
+                                    حلم الامومة مازال ممكنا مع البروفيسور د. محمد عبدالهادي
+                                </p>
+                            </div>
+                            <!-- Image -->
+                            <div class="img w-64 sm:w-96 md:w-[500px] 2xl:w-[550px] animate-top-bottom">
+                                <img loading="lazy" src="./assets/land4.svg" alt="pro" class="max-w-full max-h-[450px] mr-auto">
+                            </div>
+                        </div>
+                    </swiper-slide>
+                    
+                </swiper-container>
+            </div>
+        </header>
+        <!-- ********** End Header ********** -->
+        
+        <!-- ********** Start  About-Us ********** -->
+        <article id="about_us" class="py-16">
+            <!-- main title -->
+            <div class="main-title mb-10">
+                <h3 class="main-title w-fit relative mx-auto px-5 py-2 font-semibold text-2xl text-white group">
+                    <span
+                        class="absolute inset-0 w-full h-full transition-all duration-300 ease-out transform translate-x-0 -skew-x-12 bg-[#73afa1] group-hover:bg-[#73afa1] group-hover:skew-x-12"></span>
+                    <span
+                        class="absolute inset-0 w-full h-full transition-all duration-300 ease-out transform skew-x-12 bg-[#73afa1] group-hover:bg-[#73afa1] group-hover:-skew-x-12"></span>
+                    <span
+                        class="absolute bottom-0 left-0 hidden w-10 h-20 transition-all duration-100 ease-out transform -translate-x-8 translate-y-10 bg-[#73afa1] -rotate-12"></span>
+                    <span
+                        class="absolute bottom-0 right-0 hidden w-10 h-20 transition-all duration-100 ease-out transform translate-x-10 translate-y-8 bg-purple-400 -rotate-12"></span>
+                    <span class="relative">عـــن الـــدكـتـــور</span>
+                </h3>
+            </div>
+            <div class="container">
+                <div class="row flex flex-col lg:flex-row items-start justify-between gap-5">
+                    <!-- Image -->
+                    <div class="img w-64 sm:w-96 md:w-[420px] overflow-hidden mx-auto">
+                        <img loading="lazy" src="./assets/profile.remove.png" alt="pro" class="w-full h-full object-cover">
+                    </div>
+                    <!-- Info -->
+                    <div class="info flex-1">
+                        <h2 class="text-2xl md:text-4xl font-extrabold mb-5 text-gray-900 text-center">
+                            <span class="text-gray-700" style="line-height: 1.4;">اهــلاً بـكــم فــي عـيــادة <br> د. محمد عبدالهادي</span>
+                        </h2>
+                        <p class="font-medium text-gray-500 max-w-2xl text-center mx-auto"
+                            style="line-height: 2;">
+                            بروفيسور امراض النساء والتوليد واستشاري الحقن المجهري وأطفال الانابيب <br> جامعة الازهر- القاهرة
+                            <br>
+                        </p>
+                        <div class="row md:flex justify-center gap-10 mt-7 text-xl md:text-2xl font-semibold">
+                            <div class="box mb-10 md:mb-0">
+                                <h2 class="text-[#73afa1] mb-3">
+                                    شهادات وخبرات
+                                </h2>
+                                <ul class="text-base text-gray-600 font-normal">
+                                    <li class="mb-3 flex items-center gap-2">
+                                        <i class="fas fa-caret-left text-xl text-[#73afa1] mt-[3px]"></i>
+                                        ماجستير امراض النساء والتوليد
+                                    </li>
+                                    <li class="mb-3 flex items-center gap-2">
+                                        <i class="fas fa-caret-left text-xl text-[#73afa1] mt-[3px]"></i>
+                                        دكتوراة امراض النساء والتوليد
+                                    </li>
+                                    <li class="mb-3 flex items-center gap-2">
+                                        <i class="fas fa-caret-left text-xl text-[#73afa1] mt-[3px]"></i>
+                                        أستاذ مشارك في تدريب وتخريج دفعات متعددة في أطفال الانابيب جامعة الازهر
+                                    </li>
+                                    <li class="mb-3 flex items-center gap-2">
+                                        <i class="fas fa-caret-left text-xl text-[#73afa1] mt-[3px]"></i>
+                                        خبرات لأكثر من ثلاثون عاما في مجال جراحات المناظير النسائية
+                                    </li>
+                                    <li class="mb-3 flex items-center gap-2">
+                                        <i class="fas fa-caret-left text-xl text-[#73afa1] mt-[3px]"></i>
+                                        خبرات لأكثر من ثلاثون عاما في مجال التشخيص بالموجات الصوتية ثنائية وثلاثية ورباعية الابعاد
+                                    </li>
+                                    <li class="mb-3 flex items-center gap-2">
+                                        <i class="fas fa-caret-left text-xl text-[#73afa1] mt-[3px]"></i>
+                                        جميع عمليات التجميل النسائي بأحدث الطرق والوسائل الفعالة
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="box">
+                                <h2 class="text-red-500 mb-3">
+                                    تخصصات
+                                </h2>
+                                <ul class="text-base text-gray-600 font-normal">
+                                    <li class="mb-3 flex items-center gap-2">
+                                        <i class="fas fa-caret-left text-xl text-red-500 mt-[3px]"></i>
+                                        التخصص الدقيق في عمليات الحقن المجهري وأطفال الانابيب والتلقيح الصناعي
+                                    </li>
+                                    <li class="mb-3 flex items-center gap-2">
+                                        <i class="fas fa-caret-left text-xl text-red-500 mt-[3px]"></i>
+                                        تحديد جنس الجنين
+                                    </li>
+                                    <li class="mb-3 flex items-center gap-2">
+                                        <i class="fas fa-caret-left text-xl text-red-500 mt-[3px]"></i>
+                                        تشخيص الأمراض الوراثية والجينية للأجنة
+                                    </li>
+                                    <li class="mb-3 flex items-center gap-2">
+                                        <i class="fas fa-caret-left text-xl text-red-500 mt-[3px]"></i>
+                                        علاج تأخر الانجاب لسبب غير معروف
+                                    </li>
+                                    <li class="mb-3 flex items-center gap-2">
+                                        <i class="fas fa-caret-left text-xl text-red-500 mt-[3px]"></i>
+                                        علاج البطانة المهاجرة بالمنظار
+                                    </li>
+                                    <li class="mb-3 flex items-center gap-2">
+                                        <i class="fas fa-caret-left text-xl text-red-500 mt-[3px]"></i>
+                                        علاج تكيسات المبايض
+                                    </li>
+                                    <li class="mb-3 flex items-center gap-2">
+                                        <i class="fas fa-caret-left text-xl text-red-500 mt-[3px]"></i>
+                                        علاج الاجهاضات المتكررة
+                                    </li>
+                                    <li class="mb-3 flex items-center gap-2">
+                                        <i class="fas fa-caret-left text-xl text-red-500 mt-[3px]"></i>
+                                        علاج حالات الفشل المتكرر لعمليات الحقن المجهري بأحدث الوسائل
+                                    </li>
+                                    <li class="mb-3 flex items-center gap-2">
+                                        <i class="fas fa-caret-left text-xl text-red-500 mt-[3px]"></i>
+                                        متابعة الحمل الخطر
+                                    </li>
+                                    <li class="mb-3 flex items-center gap-2">
+                                        <i class="fas fa-caret-left text-xl text-red-500 mt-[3px]"></i>
+                                        الولادة الطبيعية والقيصرية وجميع عمليات النساء والولادة
+                                    </li>
+                                    <li class="mb-3 flex items-center gap-2">
+                                        <i class="fas fa-caret-left text-xl text-red-500 mt-[3px]"></i>
+                                        حقن البلازما بالمبايض وبطانة الرحم
+                                    </li>
+                                    <li class="mb-3 flex items-center gap-2">
+                                        <i class="fas fa-caret-left text-xl text-red-500 mt-[3px]"></i>
+                                        علاج ضعف المخزون
+                                    </li>
+                                    <li class="mb-3 flex items-center gap-2">
+                                        <i class="fas fa-caret-left text-xl text-red-500 mt-[3px]"></i>
+                                        تجميد البويضات
+                                    </li>
+                                    <li class="mb-3 flex items-center gap-2">
+                                        <i class="fas fa-caret-left text-xl text-red-500 mt-[3px]"></i>
+                                        فحص الزوجين قبل الزواج
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <!-- ********** End About-Us ********** -->
+
+        <!-- ********** Start  Information ********** -->
+        <article id="information" class="py-16 bg-[#73afa125]">
+            <!-- main title -->
+            <div class="main-title mb-10">
+                <h3 class="main-title w-fit relative mx-auto px-5 py-2 font-semibold text-2xl text-white group">
+                    <span
+                        class="absolute inset-0 w-full h-full transition-all duration-300 ease-out transform translate-x-0 -skew-x-12 bg-[#73afa1] group-hover:bg-[#73afa1] group-hover:skew-x-12"></span>
+                    <span
+                        class="absolute inset-0 w-full h-full transition-all duration-300 ease-out transform skew-x-12 bg-[#73afa1] group-hover:bg-[#73afa1] group-hover:-skew-x-12"></span>
+                    <span
+                        class="absolute bottom-0 left-0 hidden w-10 h-20 transition-all duration-100 ease-out transform -translate-x-8 translate-y-10 bg-[#73afa1] -rotate-12"></span>
+                    <span
+                        class="absolute bottom-0 right-0 hidden w-10 h-20 transition-all duration-100 ease-out transform translate-x-10 translate-y-8 bg-purple-400 -rotate-12"></span>
+                    <span class="relative">مـعـلـــومـــات تـهــم الــزوجـيــن</span>
+                </h3>
+            </div>
+            <div class="container">
+                <div class="row grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5 justify-center">
+                    <!-- text-1 -->
+                    <div class="col leading-8 text-2xl text-center font-bold p-3 rounded-xl relative overflow-hidden flex gap-3 flex-col justify-center items-center || px-6 py-3 transition-all bg-[#f8f8f8]">
+                        <div class="content relative w-full text-gray-700 transition-colors duration-700 ease-in-out text-3xl font-bold p-3 rounded-xl overflow-hidden flex gap-3 flex-col justify-center items-center">
+                            <div class="icon h-36 w-36">
+                                <img src="./assets/info-1.png" alt="paints">
+                            </div>
+                            <h4 class="text-center">تكيس المبايض</h4>
+                            <p class="text-sm font-medium text-gray-500" style="line-height: 1.7;">
+                                هي متلازمة تصيب بعض الزوجات او البنات وتتميز باضطراب الدورة الشهرية وظهور شعر زائد بالجسم واضطراب في الهرمونات وعلامات
+                                مميزة بالموجات فوق الصوتية ولها درجات مختلفة من بسيطة او شديدة ولها عدة طرق في العلاج من خفض الوزن الزائد وعمل تنشيط
+                                للتبويض الى الحقن المجهري في حالات عدم الاستجابة.   
+                            </p>
+                        </div>
+                    </div>
+                    <!-- text-2 -->
+                    <div class="col leading-8 text-2xl text-center font-bold p-3 rounded-xl relative overflow-hidden flex gap-3 flex-col justify-center items-center || px-6 py-3 transition-all bg-[#f8f8f8]">
+                        <div class="content relative w-full text-gray-700 transition-colors duration-700 ease-in-out text-3xl font-bold p-3 rounded-xl overflow-hidden flex gap-3 flex-col justify-center items-center">
+                            <div class="icon h-36 w-36">
+                                <img src="./assets/info-2.png" alt="paints">
+                            </div>
+                            <h4 class="text-center">
+                                البطانة المهاجرة
+                            </h4>
+                            <p class="text-sm font-medium text-gray-500" style="line-height: 1.7;">
+                                وهي عبارة عن جزء من بطانة الرحم يحدث لها ارتجاع داخلي بدلا من الخروج خارج الجسم في صورة الدورة الشهرية مما قد يتسبب في
+                                حدوث أكياس على المبيض ذو الالتصاقات بالأنابيب مما قد يؤخر الانجاب. وعلاجها يكون بالمنظار الجراحي وقد تحتاج الى الحقن
+                                المجهري.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- text-3 -->
+                    <div class="col leading-8 text-2xl text-center font-bold p-3 rounded-xl relative overflow-hidden flex gap-3 flex-col justify-center items-center || px-6 py-3 transition-all bg-[#f8f8f8]">
+                        <div class="content relative w-full text-gray-700 transition-colors duration-700 ease-in-out text-3xl font-bold p-3 rounded-xl overflow-hidden flex gap-3 flex-col justify-center items-center">
+                            <div class="icon h-36 w-36 rounded-full overflow-hidden">
+                                <img src="./assets/info-3.jpg" alt="paints" class="w-full h-full object-cover">
+                            </div>
+                            <h4 class="text-center">
+                                التلقيح الصناعي
+                            </h4>
+                            <p class="text-sm font-medium text-gray-500" style="line-height: 1.7;">
+                                هو اجراء يتم لمساعدة الزوجين على الانجاب عندما يكون في ضعف خفيف بالسائل المنوي وهو عبارة عن حقن السائل المنوي للزوج بعد
+                                تحضيره وتكثيفه وتنشيطه في رحم الزوجة اثناء فترة التبويض.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- text-4 -->
+                    <div class="col leading-8 text-2xl text-center font-bold p-3 rounded-xl relative overflow-hidden flex gap-3 flex-col justify-center items-center || px-6 py-3 transition-all bg-[#f8f8f8]">
+                        <div class="content relative w-full text-gray-700 transition-colors duration-700 ease-in-out text-3xl font-bold p-3 rounded-xl overflow-hidden flex gap-3 flex-col justify-center items-center">
+                            <div class="icon h-36 w-36 rounded-full overflow-hidden">
+                                <img src="./assets/info-4.png" alt="paints">
+                            </div>
+                            <h4 class="text-center">
+                                الحقن المجهري وأطفال الانابيب
+                            </h4>
+                            <p class="text-sm font-medium text-gray-500" style="line-height: 1.7;">
+                                هو اجراء لمساعدة الزوجين علي الانجاب بفضل الله عندما يكون السائل المنوي للزوج ضعيف جدا او هناك انسداد في قنوات فالوب عند
+                                الزوجة او تكيس المبايض أو البطانة المهاجرة او فشل التلقيح الصناعي لعدة مرات وهناك أسباب أخرى .
+                            </p>
+                        </div>
+                    </div>
+                    <!-- text-5 -->
+                    <div class="col leading-8 text-2xl text-center font-bold p-3 rounded-xl relative overflow-hidden flex gap-3 flex-col justify-center items-center || px-6 py-3 transition-all bg-[#f8f8f8]">
+                        <div class="content relative w-full text-gray-700 transition-colors duration-700 ease-in-out text-3xl font-bold p-3 rounded-xl overflow-hidden flex gap-3 flex-col justify-center items-center">
+                            <div class="icon h-36 w-36">
+                                <img src="./assets/info-5.png" alt="paints">
+                            </div>
+                            <h4 class="text-center">
+                                الأورام الليفية
+                            </h4>
+                            <p class="text-sm font-medium text-gray-500" style="line-height: 1.7;">
+                                هي اورام حميدة تختلف في حجمها ومكانها وقد يكون ليس لها تأثير على حدوث الحمل الا اذا كان حجمها اكبر من ٤ سم وموجودة في
+                                بطانة الرحم وعلاجها يكون جراحيا
+                            </p>
+                        </div>
+                    </div>
+                    <!-- text-6 -->
+                    <div class="col leading-8 text-2xl text-center font-bold p-3 rounded-xl relative overflow-hidden flex gap-3 flex-col justify-center items-center || px-6 py-3 transition-all bg-[#f8f8f8]">
+                        <div class="content relative w-full text-gray-700 transition-colors duration-700 ease-in-out text-3xl font-bold p-3 rounded-xl overflow-hidden flex gap-3 flex-col justify-center items-center">
+                            <div class="icon h-36 w-36">
+                                <img src="./assets/info-6.png" alt="paints">
+                            </div>
+                            <h4 class="text-center">
+                                تحديد جنس الحنين
+                            </h4>
+                            <p class="text-sm font-medium text-gray-500" style="line-height: 1.7;">
+                                ويكون عند طريق الحقن المجهري مع إمكانية تشخيص الامراض الوراثية
+                            </p>
+                        </div>
+                    </div>
+                    <!-- text-7 -->
+                    <div class="col leading-8 text-2xl text-center font-bold p-3 rounded-xl relative overflow-hidden flex gap-3 flex-col justify-center items-center || px-6 py-3 transition-all bg-[#f8f8f8]">
+                        <div class="content relative w-full text-gray-700 transition-colors duration-700 ease-in-out text-3xl font-bold p-3 rounded-xl overflow-hidden flex gap-3 flex-col justify-center items-center">
+                            <div class="icon h-36 w-36">
+                                <img src="./assets/info-7.png" alt="paints">
+                            </div>
+                            <h4 class="text-center">
+                                متابعة حالات الحمل الخطر
+                            </h4>
+                            <p class="text-sm font-medium text-gray-500" style="line-height: 1.7;">
+                                خصوصا مع مرض السكري وارتفاع ضغط الدم والامراض المزمنة بالموجات الصوتية رباعية الابعاد
+                            </p>
+                        </div>
+                    </div>
+                            
+                </div>
+            </div>
+        </article>
+        <!-- ********** End  Information ********** -->
+
+        <!-- ********** Start statistics ********** -->
+        <section id="statistics" class="py-16">
+            <!-- main title -->
+            <div class="main-title mb-10">
+                <h3 class="main-title w-fit relative mx-auto px-5 py-2 font-semibold text-2xl text-white group">
+                    <span
+                        class="absolute inset-0 w-full h-full transition-all duration-300 ease-out transform translate-x-0 -skew-x-12 bg-[#73afa1] group-hover:bg-[#73afa1] group-hover:skew-x-12"></span>
+                    <span
+                        class="absolute inset-0 w-full h-full transition-all duration-300 ease-out transform skew-x-12 bg-[#73afa1] group-hover:bg-[#73afa1] group-hover:-skew-x-12"></span>
+                    <span
+                        class="absolute bottom-0 left-0 hidden w-10 h-20 transition-all duration-100 ease-out transform -translate-x-8 translate-y-10 bg-[#73afa1] -rotate-12"></span>
+                    <span
+                        class="absolute bottom-0 right-0 hidden w-10 h-20 transition-all duration-100 ease-out transform translate-x-10 translate-y-8 bg-purple-400 -rotate-12"></span>
+                    <span class="relative">احـصـــائـيـــات</span>
+                </h3>
+            </div>
+            <div class="container">
+                <div class="row mt-3 py-10 grid gap-10 grid-cols-1 md:grid-cols-2 justify-between">
+                    <!-- BOX-1 -->
+                    <div class="col relative p-5 opacity-80 hover:opacity-100 duration-300 text-center rounded-lg overflow-hidden bg-[#73afa130]">
+                        <i class="fab fa-cloudscale text-5xl text-[#222]"></i>
+                        <div class="flex justify-center items-center text-[50px] text-[#222]">
+                            +
+                            <span class="num text-5xl font-semibold my-2" data-number="30">0</span>
+                        </div>
+                        <span class="text text-xl font-bold text-[#539082]">سـنـــة خـبـــرة</span>
+                    </div>
+                    <!-- BOX-2 -->
+                    <div class="col relative p-5 opacity-80 hover:opacity-100 duration-300 text-center rounded-lg overflow-hidden bg-[#73afa130]">
+                        <i class="fas fa-microscope text-5xl text-[#222]"></i>
+                        <div class="flex justify-center items-center text-[50px] text-[#222]">
+                            +
+                            K
+                            <span class="num text-5xl font-semibold my-2" data-number="3">0</span>
+                        </div>
+                        <span class="text text-xl font-bold text-[#539082]">حـــالــة حـقـــن مـجـهـــري</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ********** End statistics ********** -->
+
+        <!-- ********** Start Stories ********** -->
+        <section id="stories" class="py-16 bg-[#73afa125]">
+            <!-- main title -->
+            <div class="main-title mb-10">
+                <h3 class="main-title w-fit relative mx-auto px-5 py-2 font-semibold text-2xl text-white group">
+                    <span
+                        class="absolute inset-0 w-full h-full transition-all duration-300 ease-out transform translate-x-0 -skew-x-12 bg-[#73afa1] group-hover:bg-[#73afa1] group-hover:skew-x-12"></span>
+                    <span
+                        class="absolute inset-0 w-full h-full transition-all duration-300 ease-out transform skew-x-12 bg-[#73afa1] group-hover:bg-[#73afa1] group-hover:-skew-x-12"></span>
+                    <span
+                        class="absolute bottom-0 left-0 hidden w-10 h-20 transition-all duration-100 ease-out transform -translate-x-8 translate-y-10 bg-[#73afa1] -rotate-12"></span>
+                    <span
+                        class="absolute bottom-0 right-0 hidden w-10 h-20 transition-all duration-100 ease-out transform translate-x-10 translate-y-8 bg-purple-400 -rotate-12"></span>
+                    <span class="relative">قـصـــص الـنـجـــاح</span>
+                </h3>
+            </div>
+            <div class="container">
+                <div class="row mt-3 py-10 grid gap-10 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 justify-between">
+                    <!-- col-1 -->
+                    <div class="video md:max-w-[550px] max-h-96 rounded-xl overflow-hidden relative shadow-2xl z-10 cursor-pointer">
+                        <!-- Over IMG -->
+                        <div class="myVideo1 over-img hidden md:block absolute left-0 top-0 h-full w-full bg-white">
+                            <img loading="lazy" src="./assets/profile.png" alt="قصة نجاح" class="w-full h-full object-cover">
+                        </div>
+                        <video id="myVideo1" class="w-full h-full object-contain" controls>
+                            <source src="./assets/v1.mp4" type="video/mp4" kind="captions" srclang="en" label="english_captions">
+                            <source src="./assets/v1.mp4" type="video/webm" kind="captions" srclang="en" label="english_captions">
+                        </video>
+                    </div>
+                    <!-- col-2 -->
+                    <div class="video md:max-w-[550px] max-h-96 rounded-xl overflow-hidden relative shadow-2xl z-10 cursor-pointer">
+                        <!-- Over IMG -->
+                        <div class="myVideo2 over-img hidden md:block absolute left-0 top-0 h-full w-full bg-white">
+                            <img loading="lazy" src="./assets/profile.png" alt="قصة نجاح" class="w-full h-full object-cover">
+                        </div>
+                        <video id="myVideo2" class="w-full h-full object-contain" controls>
+                            <source src="./assets/v2.mp4" type="video/mp4" kind="captions" srclang="en" label="english_captions">
+                            <source src="./assets/v2.mp4" type="video/webm" kind="captions" srclang="en" label="english_captions">
+                        </video>
+                    </div>
+                    <!-- col-3 -->
+                    <div class="video md:max-w-[550px] max-h-96 rounded-xl overflow-hidden relative shadow-2xl z-10 cursor-pointer">
+                        <!-- Over IMG -->
+                        <div class="myVideo3 over-img hidden md:block absolute left-0 top-0 h-full w-full bg-white">
+                            <img loading="lazy" src="./assets/profile.png" alt="قصة نجاح" class="w-full h-full object-cover">
+                        </div>
+                        <video id="myVideo3" class="w-full h-full object-contain" controls>
+                            <source src="./assets/v3.mp4" type="video/mp4" kind="captions" srclang="en" label="english_captions">
+                            <source src="./assets/v3.mp4" type="video/webm" kind="captions" srclang="en" label="english_captions">
+                        </video>
+                    </div>
+
+                </div>
+
+                <a href="https://www.instagram.com/prof.mohammed_abdulhady/" target="_blank"
+                    class="relative w-fit flex items-center justify-start py-3 pl-12 pr-4 mt-10 mx-auto overflow-hidden font-semibold text-[#73afa1] transition-all duration-150 ease-in-out rounded hover:pr-10 hover:pl-6 bg-[#f8f8f8] group">
+                    <span
+                        class="absolute bottom-0 left-0 w-full h-1 transition-all duration-150 ease-in-out bg-[#73afa1] group-hover:h-full"></span>
+                    <span class="absolute left-0 pr-4 duration-200 ease-out group-hover:translate-x-12">
+                        <svg class="w-5 h-5 text-[#73afa1] rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                        </svg>
+                    </span>
+                    <span class="absolute right-0 pr-2.5 -translate-x-12 group-hover:translate-x-0 ease-out duration-200">
+                        <svg class="w-5 h-5 text-[#fff] rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                        </svg>
+                    </span>
+                    <span
+                        class="relative w-full text-right transition-colors duration-200 ease-in-out group-hover:text-white font-semibold">
+                        المزيد من قصص النجاح
+                    </span>
+                </a>
+
+
+            </div>
+        </section>
+        <!-- ********** End Stories ********** -->
+
+        <!-- ********** Start feedback ********** -->
+        <section id="feed" class="py-16">
+            <!-- main title -->
+            <div class="main-title mb-10">
+                <h3 class="main-title w-fit relative mx-auto px-5 py-2 font-semibold text-2xl text-white group">
+                    <span
+                        class="absolute inset-0 w-full h-full transition-all duration-300 ease-out transform translate-x-0 -skew-x-12 bg-[#73afa1] group-hover:bg-[#73afa1] group-hover:skew-x-12"></span>
+                    <span
+                        class="absolute inset-0 w-full h-full transition-all duration-300 ease-out transform skew-x-12 bg-[#73afa1] group-hover:bg-[#73afa1] group-hover:-skew-x-12"></span>
+                    <span
+                        class="absolute bottom-0 left-0 hidden w-10 h-20 transition-all duration-100 ease-out transform -translate-x-8 translate-y-10 bg-[#73afa1] -rotate-12"></span>
+                    <span
+                        class="absolute bottom-0 right-0 hidden w-10 h-20 transition-all duration-100 ease-out transform translate-x-10 translate-y-8 bg-purple-400 -rotate-12"></span>
+                    <span class="relative">آراء الـمـتـــابـعـيـــن</span>
+                </h3>
+            </div>
+            <div class="container text-center">
+                <!-- Swiper -->
+                <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" navigation="false"
+                    space-between="30" centered-slides="true" autoplay-delay="4000" autoplay-disable-on-interaction="false">
+                    <swiper-slide class="mb-10">
+                        <div
+                            class="min-h-[250px] max-w-md mx-auto bg-white shadow-lg p-3 rounded-xl relative overflow-hidden flex gap-3 flex-col justify-center items-center">
+                            <div class="icon h-16 w-16">
+                                <img src="./assets/men.png" alt="paints">
+                            </div>
+                            <h3 class="text-4xl font-extrabold">
+                                elshikh_moamen
+                            </h3>
+                            <div class="stars text-">
+                                <i class="fas fa-star text-amber-400"></i>
+                                <i class="fas fa-star text-amber-400"></i>
+                                <i class="fas fa-star text-amber-400"></i>
+                                <i class="fas fa-star text-amber-400"></i>
+                                <i class="fas fa-star text-amber-400"></i>
+                            </div>
+                            <p class="text-2xl font-semibold text-gray-700">
+                                ماشاء الله تبارك الله نفع الله بكم البلاد والعباد معالي الدكتور الحبيب
+                            </p>
+                        </div>
+                    </swiper-slide>
+                    <swiper-slide class="mb-10">
+                        <div
+                            class="min-h-[250px] max-w-md mx-auto bg-white shadow-lg p-3 rounded-xl relative overflow-hidden flex gap-3 flex-col justify-center items-center">
+                            <div class="icon h-16 w-16">
+                                <img src="./assets/women.png" alt="paints">
+                            </div>
+                            <h3 class="text-4xl font-extrabold">
+                                swfykrym4
+                            </h3>
+                            <div class="stars text-">
+                                <i class="fas fa-star text-amber-400"></i>
+                                <i class="fas fa-star text-amber-400"></i>
+                                <i class="fas fa-star text-amber-400"></i>
+                                <i class="fas fa-star text-amber-400"></i>
+                                <i class="fas fa-star text-amber-400"></i>
+                            </div>
+                            <p class="text-2xl font-semibold text-gray-700">
+                                ماشاء الله ❤️🙌
+                            </p>
+                        </div>
+                    </swiper-slide>
+                    <swiper-slide class="mb-10">
+                        <div
+                            class="min-h-[250px] max-w-md mx-auto bg-white shadow-lg p-3 rounded-xl relative overflow-hidden flex gap-3 flex-col justify-center items-center">
+                            <div class="icon h-16 w-16">
+                                <img src="./assets/women.png" alt="paints">
+                            </div>
+                            <h3 class="text-4xl font-extrabold">
+                                mena_elshahidy_19
+                            </h3>
+                            <div class="stars text-">
+                                <i class="fas fa-star text-amber-400"></i>
+                                <i class="fas fa-star text-amber-400"></i>
+                                <i class="fas fa-star text-amber-400"></i>
+                                <i class="fas fa-star text-amber-400"></i>
+                                <i class="fas fa-star text-amber-400"></i>
+                            </div>
+                            <p class="text-2xl font-semibold text-gray-700">
+                                👏👏❤️
+                            </p>
+                        </div>
+                    </swiper-slide>
+                </swiper-container>
+            </div>
+        </section>
+        <!-- ********** End feedback ********** -->
+        
+        <!-- ********** Start Booking ********** -->
+        <section id="booking" class="py-16 px-3 bg-[#73afa125]">
+            <!-- main title -->
+            <div class="main-title mb-10">
+                <h3 class="main-title w-fit relative mx-auto px-5 py-2 font-semibold text-2xl text-white group">
+                    <span
+                        class="absolute inset-0 w-full h-full transition-all duration-300 ease-out transform translate-x-0 -skew-x-12 bg-[#73afa1] group-hover:bg-[#73afa1] group-hover:skew-x-12"></span>
+                    <span
+                        class="absolute inset-0 w-full h-full transition-all duration-300 ease-out transform skew-x-12 bg-[#73afa1] group-hover:bg-[#73afa1] group-hover:-skew-x-12"></span>
+                    <span
+                        class="absolute bottom-0 left-0 hidden w-10 h-20 transition-all duration-100 ease-out transform -translate-x-8 translate-y-10 bg-[#73afa1] -rotate-12"></span>
+                    <span
+                        class="absolute bottom-0 right-0 hidden w-10 h-20 transition-all duration-100 ease-out transform translate-x-10 translate-y-8 bg-purple-400 -rotate-12"></span>
+                    <span class="relative">حـجـــز مـــوعـــد</span>
+                </h3>
+            </div>
+            <div class="form p-5 md:p-5 rounded-xl shadow flex-1 text-center lg:text-left duration-500 md:max-w-[600px] mx-auto border">
+                <input type="text" id="name" name="name" placeholder="الاســـم"
+                    class="w-full p-2 mb-3 outline-none text-[#3A3939] text-xl bg-gray-50 border rounded-md focus:shadow duration-300" />
+                <input type="number" id="phone" name="phone" placeholder="رقــم الــجـــوال"
+                    class="w-full p-2 mb-3 outline-none text-[#3A3939] text-xl bg-gray-50 border rounded-md focus:shadow duration-300" />
+                <input type="email" id="email" name="email" placeholder="البـريـد الإلكتـرونـي"
+                    class="w-full p-2 mb-3 outline-none text-[#3A3939] text-xl bg-gray-50 border rounded-md focus:shadow duration-300" />
+            
+                <button type="submit" onclick="sendMessToWhatsapp()"
+                    class="w-full bg-[#73afa1] text-white mt-3 rounded text-xl duration-300 hover:bg-[#73afa190] border px-3 py-2 mx-auto"
+                    data-text="btn_send">احجز موعد</button>
+            </div>
+
+        </section>
+        <!-- ********** End Booking ********** -->
+
+
+    </main>
+
+    <!-- ********** Start Footer ********** -->
+    <footer class="">
+        <div class="contact py-3 border-b">
+            <div class="container px-5 xl:px-40 mx-auto flex gap-2 items-center justify-center">
+                <div class="instagram">
+                    <a href="https://www.instagram.com/prof.mohammed_abdulhady/" target="_blank"
+                        class="insta text-white text-2xl cursor-pointer bg-[#e1306c] hover:bg-[#c13584] duration-300 h-10 w-10 flex items-center justify-center rounded-full">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+                <div class="gmail">
+                    <a href="mailto:mohammedabdulhady34@gmail.com"
+                        target="_blank"
+                        class="insta text-white text-2xl cursor-pointer bg-amber-700 hover:bg-amber-800 duration-300 h-10 w-10 flex items-center justify-center rounded-full">
+                        <i class="fab fa-google"></i>
+                    </a>
+                </div>
+                <div class="tiktok">
+                    <a href="https://www.tiktok.com/@mohammedabdulhad70" target="_blank"
+                        class="insta text-white text-2xl cursor-pointer bg-[#222] hover:bg-[#111] duration-300 h-10 w-10 flex items-center justify-center rounded-full">
+                        <i class="fab fa-tiktok"></i>
+                    </a>
+                </div>
+                <div class="snapchat">
+                    <a href="https://www.snapchat.com/add/mohamedabde5227?share_id=MjAzN0JGNTQtNTk4OS00NjM0LTlDNzYtQzk5MjM0OEEzRTY3&locale=ar_SA%40calendar%3Dgregorian  " target="_blank"
+                        class="insta text-white text-2xl cursor-pointer bg-[#f0ed3d] hover:bg-[#dfdc4a] duration-300 h-10 w-10 flex items-center justify-center rounded-full">
+                        <i class="fab fa-snapchat"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="foot px-5 py-5 text-[#73afa1]">
+            <p class="w-fit mx-auto">&copy; 2024جميع الحقوق محفوظة د. محمد عبدالهادي</p>
+        </div>
+    </footer>
+    <!-- ********** End Footer ********** -->
+    
+    <!-- ********** Start Flow Elemnts ********** -->
+    <a href="https://wa.me/+966545381274" target="_blank" class="whatsApp bg-[#73afa1] rounded-full text-white font-semibold p-1 w-[200px] border flex items-center gap-3 fixed bottom-5 right-5 z-50">
+        <div class="icon text-white text-2xl cursor-pointer bg-[#128c7e] duration-300 h-10 w-10 flex items-center justify-center rounded-full">
+            <i class="fab fa-whatsapp"></i>
+        </div>
+        <div class="text">
+            استشارة عبر الواتس
+        </div>
+    </a>
+    <!-- ********** End Flow Elemnts ********** -->
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        const progressCircle = document.querySelector(".autoplay-progress svg");
+        const progressContent = document.querySelector(".autoplay-progress span");
+        const swiperEl = document.querySelector("swiper-container");
+        swiperEl.addEventListener("autoplaytimeleft", (e) => {
+            const [swiper, time, progress] = e.detail;
+            progressCircle.style.setProperty("--progress", 1 - progress);
+            progressContent.textContent = `${Math.ceil(time / 4000)}s`;
+        });
+    </script>
+    <!-- Start JS Files -->
+    <script src="./js/main.js"></script>
+    <script src="./js/all.min.js"></script>
+
+</body>
+</html>
